@@ -1,0 +1,29 @@
+Objectives
+This session aims at introducing you to the concept of sampling, the incompleteness of data, as well as basic data handling in Python. At the end of this tutorial, you should be able to
+practice data pre-processing using Pandas
+generate basic plots
+
+Topic 1 – Sampling distributions
+
+Topic 2 – Basic data pre-processing
+
+Exercise 1
+Consider the dataset police.csv from traffic stops by police officers in the state of Idaho. Other states data can be found from https://openpolicing.stanford.edu/. Download the dataset from Blackboard. Use Python to perform the following tasks:
+Load the data into a dataframe and print its first 10 rows.
+Show a summary of all missing values.
+Drop the column county name.
+Drop the rows that have missing values.
+Show the data types of the columns’s data.
+Show a summary statistics of the data.
+
+
+Topic 3 – Basic plotting
+
+Exercise 2
+   Consider again the dataset from traffic stops by police officers in the state of Idaho. We have been already working on this dataset in Exercise 1. Use Python to perform the following tasks:
+
+Unsupported image type.Combine stop_date and stop_time into one column date_and_time in the dataframe.
+Drop the columns date and time.
+Convert the column date_and_time into datetime format.
+Unsupported image type.Set the index of the dataframe to be date_and_time.
+Visualise the column subject_age over time and show a histogram of subject_age.

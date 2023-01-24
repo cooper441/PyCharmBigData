@@ -36,19 +36,15 @@ while True:
 
         toAdd = (input("Enter a number: "))
 
-        listOfNumbers.append(toAdd)
-        print(listOfNumbers)
-
-
         if toAdd == "Done":
-            print(listOfNumbers)
             listOfNumbers.sort()
             print(listOfNumbers)
-            print("Max number is: " + max(listOfNumbers))
-            print("Min number is: " + min(listOfNumbers))
+            print("Max number is: " + str(max(listOfNumbers)))
+            print("Min number is: " + str(min(listOfNumbers)))
             break
 
         toAdd = int(toAdd)
+        listOfNumbers.append(toAdd)
 
 
 
